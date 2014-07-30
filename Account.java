@@ -2,7 +2,7 @@ abstract class Account implements Transactional {
 	// a distinct number for each account in our system
 	protected int number;
 	
-	// the balance for this specific account
+	// the balance for this specific account. This is harmless change
 	protected double balance;
 	
 	protected double overdraftLimit;
